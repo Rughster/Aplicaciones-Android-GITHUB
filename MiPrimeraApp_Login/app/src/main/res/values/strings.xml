@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MiPrimeraApp_Login</string>
+
+    <string name="tvSaludo">Hola Mundo</string>
+
+    <string name="tvUsuario">Usuario</string>
+    <string name="tvPass">Contraseña</string>
+
+    <string name="etUsuarioHint">Ingrese Usuario</string>
+    <string name="etContraseñaHint">Ingrese Contraseña</string>
+</resources>
