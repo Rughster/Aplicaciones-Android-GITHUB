@@ -8,4 +8,9 @@
 
     <string name="etUsuarioHint">Ingrese Usuario</string>
     <string name="etContraseñaHint">Ingrese Contraseña</string>
+
+    <string name="tvNombre">Nombre:</string>
+    <string name="tvEdad">Edad:</string>
+    <string name="tvGénero">Género:</string>
+    <string name="tvEmail">Email:</string>
 </resources>

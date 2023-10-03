@@ -26,9 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
         android:text="@string/tvUsuario"
-        android:textAlignment="viewStart"
         android:textSize="16sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,7 +40,6 @@
         android:ems="10"
         android:hint="@string/etUsuarioHint"
         android:inputType="text"
-        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -51,15 +48,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:ems="10"
+        android:layout_marginTop="52dp"
         android:text="@string/etContraseñaHint"
-        android:textAlignment="center"
         android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etUsuario" />
+        app:layout_constraintTop_toBottomOf="@+id/etUsuario"
+        tools:layout_editor_absoluteX="136dp" />
 
     <EditText
         android:id="@+id/etPass"
@@ -69,7 +62,6 @@
         android:ems="10"
         android:hint="@string/etContraseñaHint"
         android:inputType="textPassword"
-        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,9 +71,8 @@
         android:id="@+id/btnIngresar"
         android:layout_width="wrap_content"
         android:layout_height="48sp"
-        android:layout_marginTop="36dp"
-        android:onClick="onBtnIngresarTap"
-        android:text="Ingresar"
+        android:layout_marginTop="48dp"
+        android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPass" />
